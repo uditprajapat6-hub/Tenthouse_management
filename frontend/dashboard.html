@@ -1,0 +1,11 @@
+<script>
+    const user = JSON.parse(localStorage.getItem("user"));
+
+    if (!user) {
+        window.location = "login.html";
+    }
+</script>
+<h2>Dashboard</h2>
+<button onclick="getBookings()">View Bookings</button>
+<div id="data"></div>
+<script src="script.js"></script>

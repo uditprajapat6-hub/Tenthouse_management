@@ -1,0 +1,155 @@
+/* ===== GLOBAL ===== */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #0f0c0a;
+  color: #fff;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #1a120b;
+}
+
+.logo {
+  font-size: 22px;
+  color: #d4af37;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  color: #ddd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.book-btn {
+  background: #d4af37;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* ===== HERO ===== */
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 70px;
+}
+
+.hero span {
+  color: #d4af37;
+  font-style: italic;
+}
+
+.hero button {
+  margin: 10px;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #d4af37;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* ===== CARDS ===== */
+.section {
+  padding: 60px;
+  text-align: center;
+  background: #f4efe6;
+  color: #000;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  margin: 10px;
+}
+
+.card button {
+  background: #d4af37;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* ===== BOOKING FORM ===== */
+.form-section {
+  padding: 60px;
+  background: #1a120b;
+}
+
+.form-container {
+  max-width: 800px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.form-container input,
+.form-container select {
+  width: 48%;
+  padding: 10px;
+  margin: 10px 1%;
+  background: transparent;
+  border: 1px solid #555;
+  color: white;
+}
+
+/* ===== DASHBOARD ===== */
+.dashboard {
+  background: #f4efe6;
+  padding: 40px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.stat-box {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.stat-box h2 {
+  color: #d4af37;
+}
